@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#344955"
     tools:context=".DetailActivity">
 
     <com.google.android.youtube.player.YouTubePlayerView
@@ -16,6 +17,8 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/white"
         android:text="The Invisible Man"
         android:textSize="30sp" />
 
@@ -32,5 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
+        android:textColor="@color/white"
         android:text="When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see." />
 </LinearLayout>
